@@ -1,0 +1,155 @@
+body {
+  background-color: #bcbbcf;
+  margin: 0;
+  padding: 0;
+}
+*{
+  font-family: 'Caveat', cursive;
+  font-family: 'Lora', serif;
+}
+.Header {
+  background-color:#001F3F;
+  padding: 10px;
+  box-shadow: 10px 8px 10px rgba(4, 4, 4, 0.3);
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  padding-bottom:0px;
+  border-bottom: solid white 5px;
+}
+
+.Header a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.logohead {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 140px;
+  width: 140px;  
+  margin-top:13px;
+}
+
+.navbar{
+  display:flex;
+  justify-content: right;
+  margin:0px 10px 8px 0px;
+}
+.navbar div{
+  margin:8px;
+  width:60px;
+  text-align: center;
+  padding:5px;
+  margin:4px;
+  width:60px;
+  text-align: center;
+}
+.navbar div:hover{
+  transform: translate(0.5px,0.5px);
+}
+
+.navbar {
+  display: flex;
+  justify-content: right;
+  padding:0px 20px 3px 0px;
+  margin:110px 0px 0px 0px;
+}
+
+.RoomType {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+  gap:50px;
+}
+.RoomType a{
+  text-decoration: none;
+}
+.room:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translate(3px,3px);
+}
+
+.room {
+  max-width: 300px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.room img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.room h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+  color: rgba(223, 223, 223, 0.963);
+  padding: 0;
+  margin: 34px 0px 20px 30px;
+}
+
+.room p {
+  font-size: 16px;
+  color: #555;
+  
+}
+
+  .footer{
+    background-color:#001F3F;
+    width:auto;
+    height:auto;
+    padding:10px;
+    border-top:7px solid white;
+  }
+  .About{
+    display:flex;
+    flex-direction: column;
+    color:white;
+  }
+  .About div{
+    margin:2px;
+  }
+  .footer  a{
+    color:white;
+  }
+  
+  .footer a:hover{
+   color:rgb(46, 179, 212);
+  }
+  
+  .social{
+    display:flex;
+    justify-content:right;
+    flex-direction:column;
+    color:white;
+  }
+  
+  .footer-align{
+    display:flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+  }
+  
+  .social div{
+    margin:2px;
+  }

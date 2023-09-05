@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - StayJoy Hotel Booking</title>
+    <link rel="stylesheet" href="BookNow.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+        </head>
+<body>
+    <div class="Header">
+        <div class="logohead">
+            <div><img class="logo" src="logo.png" alt="logo"></div>
+            <div><h1>StayJoy</h1></div>
+        </div>
+        <div class="navbar">
+            <div><a href="index.html">Home</a></div>
+            <div><a href ="Aboutus.html">About</a></div>
+            <div><a href="Help.html">Help</a></div>
+            <div><a href="contact.html">Contact</a></div>
+        </div>
+    </div>
+    <div class="Align">
+        <div class="RoomType">
+            <h2>Room Type</h2>
+            <a href = "Single.html" target="_blank">Single Bedroom</a>
+        <a href = "Double.html" target="_blank">Double Bedroom</a>
+        <a href = "Suite.html" target="_blank">Suite</a>
+        <a href = "Apartments.html" target="_blank">Apartment</a>
+        <a href = "Family_suite.html" target="_blank">Family suite</a>
+        </div>
+        <div class="BookNowContent">
+            <h2>Book Now</h2>
+            <p>Fill in the booking details below:</p>
+            <div class="container">
+                <form method="post" action="booknow.php">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your mobile number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-in-date">Check-In Date:</label>
+                        <input type="date" id="check-in-date" name="check-in-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="check-out-date">Check-Out Date:</label>
+                        <input type="date" id="check-out-date" name="check-out-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="room-type">Room Type:</label>
+                        <select id="room-type" name="room-type" required>
+                            <option value="">Select Room Type</option>
+                            <option value="single">Single Room</option>
+                            <option value="double">Double Room</option>
+                            <option value="suite">Suite / Executive Suite</option>
+                            <option value="Apartments">Apartments / Room for Extended Stay</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="num-guests">Number of Guests:</label>
+                        <input type="number" id="num-guests" name="num-guests" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="special-requests">Special Requests:</label>
+                        <textarea id="special-requests" name="special-requests" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="location">City to Stay:</label>
+                            <select id="location" name="location">
+                                <option value="">City to Stay</option>
+                                <option value="Banglore">Banglore</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="vizag">Vizag</option>
+                                <option value="Amaravati">Amaravati</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit">Confirm Booking</button>
+                </form>
+                <div>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-align">
+            <div class="About">
+                <div><p>About</p></div>
+                <div><a href="contact.html">ContactUs</a></div>
+                <div><a href="Aboutus.html">Aboutus</a></div>
+                <div><a href="Help.html">Help</a></div>
+            </div>
+            <div class="social">
+                <div><p>Social Media</p></div>
+                <div><a href="www.facebook.com">Facebook</a></div>
+                <div><a href="www.instagram.com">Instagram</a></div>
+                <div><a href="www.twitter.com">Twitter</a></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

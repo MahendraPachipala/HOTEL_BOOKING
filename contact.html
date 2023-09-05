@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact - StayJoy Hotel Booking</title>
+  <link rel="stylesheet" href="constyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Header">
+        <div class="logohead">
+            <div><img class="logo" src="logo.png" alt="logo"></div>
+            <div><h1>StayJoy</h1></div>
+        </div>
+        <div class="navbar">
+          <div><a href="index.html">Home</a></div>
+          <div><a href="Aboutus.html">About</a></div>
+          <div><a href="Help.html">Help</a></div>
+          <div><a href="contact.html">Contact</a></div>
+        </div>
+    </div>
+
+    <div class="ContactContent">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please fill out the form below to get in touch with us:</p>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Type your queries" required></textarea>
+            
+            <input type="submit" name="submit" value="Submit">
+        </form>
+        <div class="CustomerCare">
+            <h3>Customer Care</h3>
+            <p>If you need assistance, you can reach out to our customer support team:</p>
+            <ul>
+                <li>Email: support@stayjoyhotels.com</li>
+                <li>Phone: +1 (123) 456-7890</li>
+                <li>Address: 123 Main Street, City, Country</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-align">
+            <div class="About">
+                <div><p>About</p></div>
+                <div><a href="contact.html">ContactUs</a></div>
+                <div><a href="Aboutus.html">Aboutus</a></div>
+                <div><a href="Help.html">Help</a></div>
+            </div>
+            <div class="social">
+                <div><p>Social Media</p></div>
+                <div><a href="www.facebook.com">Facebook</a></div>
+                <div><a href="www.instagram.com">Instagram</a></div>
+                <div><a href="www.twitter.com">Twitter</a></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
